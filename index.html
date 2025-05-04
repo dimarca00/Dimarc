@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiMarca - Moda con identità</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Helvetica Neue', sans-serif; }
+    body { background: #fff; color: #111; line-height: 1.6; }
+    header { background: #000; color: #fff; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; position: fixed; width: 100%; top: 0; z-index: 10; }
+    nav a { color: #fff; text-decoration: none; margin-left: 20px; font-weight: 500; }
+    .hero { height: 100vh; background: url('https://source.unsplash.com/1600x900/?fashion') center/cover no-repeat; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; padding: 0 20px; }
+    .hero h1 { font-size: 4rem; color: #fff; margin-bottom: 20px; }
+    .hero p { font-size: 1.2rem; color: #f2f2f2; margin-bottom: 30px; }
+    .hero a { background: #fff; color: #000; padding: 12px 30px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+    .hero a:hover { background: #111; color: #fff; }
+    section { padding: 100px 40px; max-width: 1200px; margin: auto; }
+    .collection img { width: 100%; max-width: 400px; border-radius: 10px; margin: 10px; }
+    .about, .contact { text-align: center; }
+    footer { background: #000; color: #fff; text-align: center; padding: 40px 20px; }
+    footer a { color: #aaa; margin: 0 10px; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div><strong>DiMarca</strong></div>
+  <nav>
+    <a href="#collezione">Collezione</a>
+    <a href="#about">Chi siamo</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Espressione. Stile. DiMarca.</h1>
+  <p>Il brand che unisce identità, qualità e visione</p>
+  <a href="#collezione">Scopri la collezione</a>
+</section>
+
+<section id="collezione" class="collection">
+  <h2>Collezione 2025</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; margin-top: 40px;">
+    <img src="https://source.unsplash.com/400x500/?jacket" alt="Giacca">
+    <img src="https://source.unsplash.com/400x500/?tshirt" alt="T-shirt">
+    <img src="https://source.unsplash.com/400x500/?streetwear" alt="Streetwear">
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>Chi siamo</h2>
+  <p style="max-width: 700px; margin: 20px auto;">
+    DiMarca nasce dall’idea di creare capi che parlano di te. Ogni pezzo è pensato per distinguersi con autenticità. Non seguiamo le mode, le anticipiamo.
+  </p>
+</section>
+
+<section id="contatti" class="contact">
+  <h2>Contattaci</h2>
+  <p>Email: <a href="mailto:info@dimarca.com">info@dimarca.com</a></p>
+  <p>Instagram: <a href="https://instagram.com/dimarca" target="_blank">@dimarca</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 DiMarca. Tutti i diritti riservati.</p>
+  <p><a href="#">Privacy</a> | <a href="#">Termini</a> | <a href="#">Cookie</a></p>
+</footer>
+
+</body>
+</html>
